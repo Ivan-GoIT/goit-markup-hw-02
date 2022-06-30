@@ -1,0 +1,15 @@
+:root{
+    --prymary-text-color:#757575;
+    --primary-white-color:#FFFFFF;
+    --accent-color:#2196F3;
+    --title-color:#212121;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+main{
+    background-color: #ffffff;
+}
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
