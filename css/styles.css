@@ -1,15 +1,50 @@
-:root{
-    --prymary-text-color:#757575;
-    --primary-white-color:#FFFFFF;
-    --accent-color:#2196F3;
-    --title-color:#212121;
-}
-
-body{
-    background-color: #E5E5E5;
-}
-main{
-    background-color: #ffffff;
-}
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
+:root {
+  --prymary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--prymary-text-color);
+}
+/* Logo */
+.logo {
+  color: #000000;
+}
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+/* Header */
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+.link-reset {
+  text-decoration: none;
+}
+
+.site-nav .link-reset {
+  color: var(--title-color);
+}
+
+.site-nav .link-reset:hover,
+.site-nav .link-reset:focus {
+  color: var(--accent-color);
+}
+
+.contact{
+    color:var(--prymary-text-color)
+}
+
+.contact:hover,
+.contact:focus {
+    color:var(--accent-color)
+}
