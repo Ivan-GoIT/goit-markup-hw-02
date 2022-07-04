@@ -10,10 +10,18 @@ font-family: 'Roboto', sans-serif; */
 body {
   background-color: #ffffff;
   color: var(--prymary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
 /* Logo */
 .logo {
   color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
 }
 
 .logo > span {
@@ -33,6 +41,10 @@ body {
 
 .site-nav .link-reset {
   color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link-reset:hover,
@@ -40,11 +52,50 @@ body {
   color: var(--accent-color);
 }
 
-.contact{
-    color:var(--prymary-text-color)
+.contact {
+  color: var(--prymary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contact:hover,
 .contact:focus {
-    color:var(--accent-color)
+  color: var(--accent-color);
+}
+
+.hero-title {
+  color: var(--title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* Особенности */
+
+.features .title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Skills */
+.section-title{
+  
 }
