@@ -75,13 +75,17 @@ body {
   text-transform: uppercase;
 }
 
-.button {
+.hero .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+}
+
+.button{
+  cursor: pointer;
 }
 
 /* Особенности */
@@ -107,11 +111,60 @@ body {
 
 /* Team */
 
-.team .title {
-  color:var(--title-color);
-  font-weight: 500;
+.team-card {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.team-card .title {
+  color: var(--title-color);
+  font-weight: 500;
+}
+
+/* Futer */
+
+.address {
+  color: var(--primary-white-color);
+}
+
+.address.conhtact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+/* Filter */
+
+.filter-list .button {
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  /* border-radius: 4px;
+  border: 0; */
+}
+
+.filter-list .button:focus,
+.filter-list .button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  cursor:pointer;
+}
+
+/* Works */
+
+.works-list .title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works-list .works-filter {
+  font-size: 16px;
+  line-height: 1.88;
 }
