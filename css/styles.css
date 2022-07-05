@@ -13,8 +13,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
 }
 /* Logo */
@@ -123,10 +121,14 @@ body {
 }
 
 /* Futer */
-
-.address {
+.futer{
+  background-color: #2F303A;
   color: var(--primary-white-color);
 }
+.logo{
+  color:inherit
+}
+
 
 .address.conhtact {
   color: rgba(255, 255, 255, 0.6);
