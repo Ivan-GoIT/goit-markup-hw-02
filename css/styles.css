@@ -16,8 +16,10 @@ body {
   letter-spacing: 0.03em;
 }
 /* Logo */
+.header .logo{
+  color: var(--title-color);
+}
 .logo {
-  color: #000000;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
 }
@@ -123,10 +125,10 @@ body {
 /* Futer */
 .futer{
   background-color: #2F303A;
-  color: var(--primary-white-color);
 }
+
 .logo{
-  color:inherit
+    color: var(--primary-white-color);
 }
 
 
