@@ -24,7 +24,7 @@ body {
   font-size: 26px;
 }
 
-.logo > span {
+.logo-color {
   color: var(--accent-color);
 }
 
@@ -125,18 +125,18 @@ body {
 /* Futer */
 .futer{
   background-color: #2F303A;
+  color: var(--primary-white-color);
 }
 
-.logo{
-    color: var(--primary-white-color);
+.futer .logo{
+    color: inherit;
 }
 
-
-.address.conhtact {
+.address.contact {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Portfolio */
+/* Portfolio.html */
 
 /* Filter */
 
